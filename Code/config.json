@@ -1,0 +1,12 @@
+{
+    "gemini_api_key": "",
+    "gemini_endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+    "gemini_model": "gemini-2.5-flash",
+    "headful": true,
+    "viewport": {
+        "width": 1280,
+        "height": 800
+    },
+    "max_steps": 20,
+    "screenshot_on_every_dom_change": true
+}

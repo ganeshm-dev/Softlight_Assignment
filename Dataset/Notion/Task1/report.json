@@ -1,0 +1,43 @@
+{
+  "task": "Create a new page in Notion titled 'Automation Summary'",
+  "start_url": null,
+  "steps": [
+    {
+      "step": 0,
+      "action": "task_page_ready",
+      "url": "https://www.notion.so/new?title=Automation%20Summary"
+    },
+    {
+      "ui_plan_execution": {
+        "error": "ui_plan_not_list",
+        "raw": {
+          "error": "Empty Gemini response",
+          "raw": {
+            "candidates": [
+              {
+                "content": {
+                  "role": "model"
+                },
+                "finishReason": "MAX_TOKENS",
+                "index": 0
+              }
+            ],
+            "usageMetadata": {
+              "promptTokenCount": 7358,
+              "totalTokenCount": 9405,
+              "promptTokensDetails": [
+                {
+                  "modality": "TEXT",
+                  "tokenCount": 7358
+                }
+              ],
+              "thoughtsTokenCount": 2047
+            },
+            "modelVersion": "gemini-2.5-flash",
+            "responseId": "9dgMaePQAerUz7IP9ZLEsQQ"
+          }
+        }
+      }
+    }
+  ]
+}

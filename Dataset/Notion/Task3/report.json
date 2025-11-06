@@ -1,0 +1,14 @@
+{
+  "task": "Add a row in Notion database 'Automation Logs' with title 'Test Case 1'",
+  "start_url": null,
+  "steps": [
+    {
+      "step": 0,
+      "action": "task_page_ready",
+      "url": "https://api.notion.com/v1/pages"
+    },
+    {
+      "ui_plan_execution": []
+    }
+  ]
+}
