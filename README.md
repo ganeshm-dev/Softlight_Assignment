@@ -20,19 +20,19 @@ User Task  -->  Gemini (LLM reasoning + planning)  -->  URL Detection (base + lo
 
 ## Setup Instructions
 
-###1. Clone the Repository
+1. Clone the Repository
 ```bash
 git clone https://github.com/ganeshm-dev/Softlight_Assignment.git
 cd Softlight_Assignment
 
-###2. Create and Activate Virtual Environment 
+2. Create and Activate Virtual Environment 
 python -m venv venv
 venv\Scripts\activate
 
-###3. Install Dependencies
+3. Install Dependencies
 pip install -r requirements.txt
 
-###4. Run Example Tasks
+4. Run Example Tasks
 **Linear Tasks**
 python -m Code.main --task "Create a new project in Linear named 'AI Test Project'" --outdir .\Dataset\Linear\Task1
 python -m Code.main --task "Assign issue 'Backend Integration' to user 'Ganesh'" --outdir .\Dataset\Linear\Task2
